@@ -1,0 +1,292 @@
+.reset_boton{
+    all:unset; 
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 100% !important;
+    border: 5px solid black !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.carousel-indicators{
+    bottom: -55px !important;
+}
+.cuadernoPq{
+    background-image: url("img/CaudernoPequeno.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 100%;
+    padding-bottom: 5%;
+    height: fit-content;
+}
+.cuadernoMd{
+    background-image: url("img/CaudernoPequeno.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 100%;
+    padding-bottom: 5%;
+    height: fit-content;
+}
+.cuadernoGd{
+    background-image: url("img/CaudernoPequeno.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 100%;
+    padding-bottom: 5%;
+    height: fit-content;
+}
+.foto{
+    width: 55%;
+}
+.fotoText{
+    width: 75%;
+}
+.imagen{
+    width: 80%;
+}
+
+.fotoGame{
+    width: 90%;
+}
+video{
+    margin: 0.5vh !important;
+    width: 80% !important;
+}
+.modelos{
+    width: 81% !important;
+}
+.margenAnim{
+    margin-top: 23% !important;
+}
+.margenModels{
+    margin-top: 23% !important;
+}
+.margenVideogames{
+    margin-top:39% !important;
+}
+.margenTexturing{
+    margin-top: 23% !important;
+    margin-bottom: 2.5% !important;
+}
+footer{
+    height: 8vh;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.cuadernoSkill{
+    padding-bottom:40% !important;
+}
+.titleArrow{
+    width: 60px ;
+}
+.tituloSkill{
+    padding-top: 16%;
+}
+.flechaEnlace{
+    width: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  a:link {
+    color: white;
+    outline: none;
+    text-decoration: none;
+  
+}
+  a:visited {
+    color: white;
+    outline: none;
+    text-decoration: none;
+  }
+  a:focus {
+    color: whitesmoke;
+    outline: none;
+    text-decoration: none;
+  }
+  a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+
+  }
+  a:active {
+    color: black;
+    text-decoration: none;
+
+  }
+  .aNegro {
+    outline: none;
+    text-decoration: none;
+  }
+  .aNegro:link {
+    color: black;
+    outline: none;
+    text-decoration: none;
+  
+}
+  .aNegro:visited {
+    color: black;
+    outline: none;
+    text-decoration: none;
+  }
+  .aNegro:focus {
+    color: rgb(52, 52, 52);
+    outline: none;
+    text-decoration: none;
+  }
+  .aNegro:hover {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+
+  }
+  .aNegro:active {
+    color: black;
+    text-decoration: none;
+
+  }
+@media screen and (min-width:768px){
+    .carousel-indicators [data-bs-target]{
+        border-radius: 100% !important;
+        border: 5px solid black !important;
+        margin: 0 10px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .carousel-indicators{
+        bottom: -88px !important;
+    }
+    .tituloSkill{
+        padding-top: 22%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1183px){
+    .margenVideogames{
+        margin-top:30% !important;
+    }
+    .carousel-indicators{
+        bottom: -55px !important;
+    }
+    .margenTexturing{
+        margin-top: 25% !important;
+        margin-bottom: 2.5% !important;
+    }
+    .juegos{
+        margin-right: 10% !important;
+    }
+    .fotoText{
+        margin-right: 10%;
+    }
+    .cuadernoSkill{
+        padding-bottom:38% !important;
+    }
+    .tituloSkill{
+        padding-top: 22 %;
+    }
+
+}
+@media  screen and (min-width: 1184px) {
+    .titleArrow{
+        width: 90px;
+    }
+    .reset_boton{
+        all:unset; 
+    }
+    
+    .carousel-indicators [data-bs-target]{
+        border-radius: 100% !important;
+        border: 5px solid black !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .carousel-indicators{
+        bottom: -55px !important;
+    }
+    .cuadernoPq{
+        background-image: url("img/CaudernoPequeno.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 100%;
+        padding-bottom:2% ;
+        height: fit-content;
+    }
+    .cuadernoMd{
+        background-image: url("img/CaudernoPequeno.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 100%;
+        padding-bottom:2% ;
+        height: fit-content;
+    }
+    .cuadernoGd{
+        background-image: url("img/CuadernoGrande.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 100%;
+        padding-bottom:2% ;
+        height: fit-content;
+    }
+    .cuadernoAnimation{
+        margin-top: 2.8% !important;
+        padding-top: 3.3% !important;
+    }
+    .cuadernoTexturing{
+        margin-top: 5% !important
+    }
+    .foto{
+        width: 55% !important;
+    }
+    .fotoText{
+        width: 58.5% !important;
+    }
+    .imagen{
+        width: 80% !important;
+    }
+    
+    .fotoGame{
+        width: 68.5% !important;
+    }
+    
+    footer{
+        height: 8vh;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 3;
+    }
+    .margenAnim{
+        margin-top: 7.8% !important;
+    }
+    .margenModels{
+        margin-top: 20% !important;
+    }
+    .margenVideogames{
+        margin-top:17% !important;
+    }
+    .margenTexturing{
+        margin-top: 10.2% !important;
+        margin-bottom: 2.5% !important;
+    }
+    video{
+        margin: 0.5vh !important;
+        width: 64% !important;
+    }
+    .modelos{
+        width: 60% !important;
+    }
+    .cuadernoSkill{
+        padding-bottom:15.1% !important;
+    }
+    .margenBloqueAnim{
+        margin-left: 3rem !important;
+
+    }
+    .tituloSkill{
+        padding-top: 15%;
+    }
+}
