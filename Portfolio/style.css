@@ -1,6 +1,25 @@
 .reset_boton{
     all:unset; 
 }
+h1{
+    font-family: 'Grandstander', cursive;
+}
+h2{
+    font-family: 'Grandstander', cursive;
+}
+h3{
+    font-family: 'Grandstander', cursive;
+}
+p{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 15pt;
+}
+.letraMenu{
+    font-family: 'Grandstander', cursive;
+    font-size: 18pt;
+
+}
+
 .carousel-indicators [data-bs-target]{
     border-radius: 100% !important;
     border: 5px solid black !important;
@@ -23,7 +42,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90% 100%;
-    padding-bottom: 5%;
+    padding-bottom: 9.5%;
     height: fit-content;
 }
 .cuadernoGd{
@@ -76,7 +95,7 @@ header{
     z-index: 3;
 }
 .cuadernoSkill{
-    padding-bottom:40% !important;
+    padding-bottom:20% !important;
 }
 .titleArrow{
     width: 60px ;
@@ -149,6 +168,11 @@ header{
     text-decoration: none;
 
   }
+
+.modelosReales{
+    width: 100% !important;
+    height: 480px;
+}
 @media screen and (min-width:768px){
     .carousel-indicators [data-bs-target]{
         border-radius: 100% !important;
@@ -162,6 +186,10 @@ header{
     }
     .tituloSkill{
         padding-top: 22%;
+    }
+    p{
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 12pt;
     }
 }
 @media screen and (min-width:992px) and (max-width:1183px){
@@ -182,10 +210,14 @@ header{
         margin-right: 10%;
     }
     .cuadernoSkill{
-        padding-bottom:38% !important;
+        padding-bottom:30% !important;
     }
     .tituloSkill{
-        padding-top: 22 %;
+        padding-top: 22%;
+    }
+    p{
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 14pt;
     }
 
 }
@@ -219,7 +251,7 @@ header{
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 100%;
-        padding-bottom:2% ;
+        padding-bottom:4% ;
         height: fit-content;
     }
     .cuadernoGd{
@@ -266,7 +298,7 @@ header{
         margin-top: 20% !important;
     }
     .margenVideogames{
-        margin-top:17% !important;
+        margin-top:22% !important;
     }
     .margenTexturing{
         margin-top: 10.2% !important;
@@ -280,7 +312,7 @@ header{
         width: 60% !important;
     }
     .cuadernoSkill{
-        padding-bottom:15.1% !important;
+        padding-bottom:12.5% !important;
     }
     .margenBloqueAnim{
         margin-left: 3rem !important;
@@ -288,5 +320,9 @@ header{
     }
     .tituloSkill{
         padding-top: 15%;
+    }
+    p{
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 16pt;
     }
 }
